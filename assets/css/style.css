@@ -1,0 +1,40 @@
+
+
+.background {
+
+    background-image: url(../img/background/background_img.webp);
+}
+
+.margin {
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.text_rigth {
+
+    justify-content: right;
+}
+
+.background_white {
+
+    background-color: whitesmoke;
+}
+
+.center {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.margin_contacto {
+
+    margin: 100px 200px 100px 200px;
+}
+
+.background_form {
+
+    background-color: whitesmoke;
+}
+
