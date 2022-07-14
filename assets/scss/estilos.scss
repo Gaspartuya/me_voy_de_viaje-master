@@ -7,3 +7,61 @@
 
     text-align: center;
 }
+
+
+$ayuda: (
+
+    1: #f2f3eb,
+    2: #c5acac,
+    3: #cfd5b9,
+    4: #e3cccc,
+    5: #b3c398,
+);
+
+@each $preguntas, $color in $ayuda {
+
+    .background_preg#{$preguntas} {
+
+        background-color: $color;
+    }
+
+}
+
+.btn1 {
+
+    width: 400px;
+    height: 200px;
+    background-color: #c5acac;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.btn-dest {
+    @extend .btn1;
+    background-color:#e3cccc;
+    color:#b3c398;
+}
+
+.btn-dest2 {
+    @extend .btn-dest2;
+    background-color: #cfd5b9;
+    color: #c5acac;
+}
+
+$color: white;
+
+@mixin index ($background-color, $font-family){
+    background-color: $background-color;
+    font-family: $font-family;
+    color: $color;
+    
+}
+
+.index-green {
+    @include index(#b3c398, verdana)
+}
+
+.index-grey {
+    @include index(rgba(128, 128, 128, 0.564), verdana)
+}

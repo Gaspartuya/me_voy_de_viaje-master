@@ -1,0 +1,57 @@
+.margin_top {
+  margin-top: 20px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.background_preg1 {
+  background-color: #f2f3eb;
+}
+
+.background_preg2 {
+  background-color: #c5acac;
+}
+
+.background_preg3 {
+  background-color: #cfd5b9;
+}
+
+.background_preg4 {
+  background-color: #e3cccc;
+}
+
+.background_preg5 {
+  background-color: #b3c398;
+}
+
+.btn1, .btn-dest {
+  width: 400px;
+  height: 200px;
+  background-color: #c5acac;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-dest {
+  background-color: #e3cccc;
+  color: #b3c398;
+}
+
+.btn-dest2 {
+  background-color: #cfd5b9;
+  color: #c5acac;
+}
+
+.index-green {
+  background-color: #b3c398;
+  font-family: verdana;
+  color: white;
+}
+
+.index-grey {
+  background-color: rgba(128, 128, 128, 0.493);
+  font-family: verdana;
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */

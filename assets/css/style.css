@@ -2,7 +2,8 @@
 
 .background {
 
-    background-image: url(../img/background/background_img.webp);
+    background-color: #e6d3c7;
+   
 }
 
 .margin {
@@ -19,7 +20,7 @@
 
 .background_white {
 
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.288);
 }
 
 .center {
@@ -35,6 +36,27 @@
 
 .background_form {
 
-    background-color: whitesmoke;
+    background-color: #f4f3efb0;
 }
 
+
+.text-black {
+
+    color: black;
+}
+
+.padding-left {
+
+    padding-left: 100px;
+}
+
+.text-header {
+
+    font-size: x-large;
+    color: #9e7d6a;
+}
+
+.margin-top2 {
+
+    margin-top: 50px;
+}
