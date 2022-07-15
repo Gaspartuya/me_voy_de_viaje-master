@@ -9,6 +9,7 @@
 }
 
 
+
 $ayuda: (
 
     1: #f2f3eb,
@@ -27,28 +28,6 @@ $ayuda: (
 
 }
 
-.btn1 {
-
-    width: 400px;
-    height: 200px;
-    background-color: #c5acac;
-    color: white;
-    border-radius: 5px;
-
-}
-
-.btn-dest {
-    @extend .btn1;
-    background-color:#e3cccc;
-    color:#b3c398;
-}
-
-.btn-dest2 {
-    @extend .btn-dest2;
-    background-color: #cfd5b9;
-    color: #c5acac;
-}
-
 $color: white;
 
 @mixin index ($background-color, $font-family){
@@ -63,5 +42,95 @@ $color: white;
 }
 
 .index-grey {
-    @include index(rgba(128, 128, 128, 0.564), verdana)
+    @include index(rgba(128, 128, 128, 0.39), verdana)
+}
+
+.container-index {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animado-index {
+
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.animado-ayuda {
+
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-bottom: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+
+.border-radius {
+
+    border-radius: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.border {
+    width: 250px;
+    height: 200px;
+
+}
+
+.text-green {
+
+    color: #b3c398;
+}
+
+.text-bold {
+
+    font-weight: bold;
+}
+
+
+
+.menu a span:first-child {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+.font-Helvetica {
+    font-family: Helvetica
+  
+}
+
+@font-face{
+    font-family: finland;
+    src: url(../Fuentes/Finland\ .ttf.ttf);
+}
+
+.font-title {
+
+    font-family: finland;
+    font-size:xx-large;
+    font-weight: bold;
 }

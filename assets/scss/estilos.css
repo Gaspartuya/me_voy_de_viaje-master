@@ -26,24 +26,6 @@
   background-color: #b3c398;
 }
 
-.btn1, .btn-dest {
-  width: 400px;
-  height: 200px;
-  background-color: #c5acac;
-  color: white;
-  border-radius: 5px;
-}
-
-.btn-dest {
-  background-color: #e3cccc;
-  color: #b3c398;
-}
-
-.btn-dest2 {
-  background-color: #cfd5b9;
-  color: #c5acac;
-}
-
 .index-green {
   background-color: #b3c398;
   font-family: verdana;
@@ -51,7 +33,96 @@
 }
 
 .index-grey {
-  background-color: rgba(128, 128, 128, 0.493);
+  background-color: rgba(128, 128, 128, 0.39);
   font-family: verdana;
   color: white;
+}
+
+.container-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animado-index {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.animado-ayuda {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+.border-radius {
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+}
+
+.border {
+  width: 250px;
+  height: 200px;
+}
+
+.text-green {
+  color: #b3c398;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.menu a span:first-child {
+  display: inline-block;
+  padding: 10px;
+}
+
+.font-Helvetica {
+  font-family: Helvetica;
+}
+
+@font-face {
+  font-family: finland;
+  src: url(../Fuentes/Finland\ .ttf.ttf);
+}
+.font-title {
+  font-family: finland;
+  font-size: xx-large;
+  font-weight: bold;
 }/*# sourceMappingURL=estilos.css.map */
