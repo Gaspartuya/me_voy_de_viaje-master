@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../scss/estilos.css">
     <link rel="shorcut icon" href="../img/logos/Logo-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
   </head>
   <body class="background">
 
@@ -25,6 +27,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c6e162fd7c.js" crossorigin="anonymous"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 
     
     <header>
@@ -37,21 +41,21 @@
           
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>         
-                  <a class="navbar-brand" href="../../index.html"> <img src="../img/logos/Logo-removebg-preview.png" height="100px" alt=""></a>
+                  <a class="navbar-brand" href="../../index.html"> <img src="../img/logos/Logo_alado.png" height="100px" alt=""></a>
           
                       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav padding-left text-header">
                             <li class="nav-item active padding-left">
-                              <a class="nav-link font-title" href="../pages/destinos.html">Destinos <span class="sr-only">(current)</span></a>
+                              <a class="nav-link font-title text-navbar" href="../pages/destinos.html">Destinos <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active padding-left">
-                              <a class="nav-link font-title" href="../pages/referencias.html">Referencias <span class="sr-only">(current)</span></a>
+                              <a class="nav-link font-title text-navbar" href="../pages/referencias.html">Referencias <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active padding-left">
-                              <a class="nav-link font-title" href="../pages/contacto.html">Contacto <span class="sr-only">(current)</span></a>
+                              <a class="nav-link font-title text-navbar" href="../pages/contacto.html">Contacto <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active padding-left">
-                              <a class="nav-link font-title" href="../pages/ayuda.html">Ayuda <span class="sr-only">(current)</span></a>
+                              <a class="nav-link font-title text-navbar" href="../pages/ayuda.html">Ayuda <span class="sr-only">(current)</span></a>
                             </li>
                           </ul>
                       </div>
@@ -66,11 +70,17 @@
     <div class="container margin_top">
       <div class="row">
           <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-            <div class="card">
-              <video src="../img/videos/Lago_di_Como.mp4" controls autoplay></video>
-              <div class="card-body"> Lago di Como, Italia - 
+            
+            <div class="card wow animate__animated animate__slideInLeft">
+              <video src="../img/videos/Lago_di_Como.mp4" controls></video>
+              <p>
+                <button class="btn btn-outline-light btn-floating m-1 text-black background_form" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  Lago di Como, Milan
+                </button>
+              </p>
+              <div class="collapse" id="collapse1">
+              <div class="card card-body"> 
                 
-                <br><br>
                 💘Como: en nuestra primer parada y encuentro con el Lago di Como nos tomamos aprox 1hora para caminar y fotear a ful. El contraste del lago con los colores de los edificios es precioso.
                 <br><br>
                 💘Bellagio: Su belleza está a otro nivel. Les juro que cada callecita es para fotear. Pueden aprovechar a almorzar ahi (hay muchos lugarcitos HERMOSOS, lo que si los precios no son de lo mas accesibles). Caminando hacia la derecha desde donde los deja el ferry hay un parque hermoso ideal para comer algo o tomar unos mates.
@@ -78,17 +88,23 @@
                 💘Varenna: Realmente hermoso. Sus callecitas angostas y empinadas son una mas linda que la otra. Hay un Jardin Botanico (Villa Monastero) para visitar que dicen es muy lindo, yo no lo visité. La entrada sale 10€ e incluye acceso al museo.
                 Desde alli tomamos el tren de regreso a Milan.
               
-              
+              </div>
+          
               
               </div>
             </div>
           </div>
          
           <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-            <div class="card">
-              <video src="../img/videos/Milan.mp4" controls autoplay loop></video>
-              <div class="card-body"> Milan, Italia -
-                <br><br>
+            <div class="card wow animate__animated animate__slideInUp">
+              <video src="../img/videos/Milan.mp4" controls></video>
+              <p>
+                <button class="btn btn-outline-light btn-floating m-1 text-black background_form" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  Milan, Italia
+                </button>
+              </p>
+              <div class="collapse" id="collapse2">
+              <div class="card-body">
                 
                 Parco Sempione: este parque ENORME en el centro de la ciudad es realmente hermoso. En el se encuentra el Arco della Pace y el Castelo Sforzesco. Ideal para recorrerlo y tomarse unos mates.
                 <br><br>
@@ -97,23 +113,28 @@
                 Galeria Vittorio Emanuele. La galeria mas chic de la ciudad. Combina una arquitectura imponente con las mas renombradas marcas como Gucci, Prada y Luis Vouitton. 
                 <br><br>
                 Navigli: esta zona de canales es muy pintoresca. Hay muchos lugares para comer y tomar algo. Consejo: ir al atardecer para tener hermosas vistas. 
-               
+                </div>
                 
                </div>
             </div>
           </div>
 
           <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-            <div class="card">
-              <video src="../img/videos/Mexico.mp4" controls autoplay preload="auto"></video>
-              <div class="card-body"> Playas Mexicanas -
-                <br><br>
+            <div class="card wow animate__animated animate__slideInRight">
+              <video src="../img/videos/Mexico.mp4" controls="auto"></video>
+              <p>
+                <button class="btn btn-outline-light btn-floating m-1 text-black background_form" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  Playas Mexicanas
+                </button>
+              </p>
+              <div class="collapse" id="collapse3">
+              <div class="card-body"> 
                 
                 🌊 Isla Mujeres y el agua mas transparente que vi
                 <br><br>
                 🌊 Isla Holbox con atardeceres que enamoran
                 <br><br>
-                🌊 Puerto Morelos, el pueblito pesquero que me robo el cora con sus aguas turquesas
+                🌊 Puerto Morelos, el pueblito pesquero que me robo el cora con sus aguas turquesas 
                 <br><br>
                 🌊 Tulum, magico por donde se lo mire </div>
             </div>
@@ -123,16 +144,17 @@
 
     </div>
 
+
     
 
   
         
-      <footer class="text-center text-lg-start text-black background_form margin_top">
+      <footer class="text-center text-lg-start text-black background_form margin_top wow animate__animated animate__slideInUp">
         <div class="container p-4 pb-0">
             <section class="">
                 <div class="row">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Me Voy de Viaje</h6>
+
                         <a href="../../index.html"> <img src="../img/logos/Logo-removebg-preview.png" height="120px" alt="Me Voy De Viaje"></a>
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -140,31 +162,23 @@
                         <p><a href="./destinos.html" class="btn btn-outline-light btn-floating m-1 text-black">Destinos</a></p>
                         <p><a href="./referencias.html" class="btn btn-outline-light btn-floating m-1 text-black">Referencias</a></p>
                         <p><a href="./ayuda.html" class="btn btn-outline-light btn-floating m-1 text-black">Ayuda</a></p>
+                        <p><a href="./contacto.html" class="btn btn-outline-light btn-floating m-1 text-black">Contacto</a></p>
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-black">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
-                        <p><i class="fas fa-envelope mr-3"></i>mevoydeviaje.turismo@gmail.com</p>
-                        <p><i class="fas fa-phone mr-3"></i>2317-472287</p>
-                        <p><i class="fas fa-home mr-3"></i>69 N° 476, La Plata</p>
-                    </div>
-                </div>
-            </section>
+                      <a href="mailto:mevoydeviaje.turismo@gmail.com" target="_blank"> <p class="text-black"><i class="fas fa-envelope mr-3 text-black"></i>mevoydeviaje.turismo@gmail.com</p></a>
+                      <a href="tel:+542317472285" target="_blank"> <p class="text-black"><i class="fas fa-phone mr-3 text-black"></i>+54 2317-472285</p></a>
+                      <a href="https://www.google.com/maps/place/C.+69+476,+B1904BCW+La+Plata,
+                      +Provincia+de+Buenos+Aires,+Argentina/@-34.9262861,-57.9307948,17z/data=
+                      !3m1!4b1!4m5!3m4!1s0x95a2e8a6161f5c4f:0x90a13b840f65544c!8m2!3d-34.9262861!4d-57.9286061" target="_blank"><p class="text-black"><i class="text-black fas fa-home mr-3"></i>69 N° 476, La Plata</p></a>
 
-            <div class="p-3 pt-0">
-                <div class="row d-flex align-items-center text-black">
-                    <div class="col-md-7 col-lg-8 text-center text-md-start">
-                        <div>
-                          <img src="../img/logos/gaspart.png" height="120px" alt="GasparT">
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                      <a href="https://www.facebook.com/mevoydeviaje.turismo" target="_blank" class="btn btn-outline-light btn-floating m-1 text-black" role="button"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="https://www.facebook.com/mevoydeviaje.turismo" target="_blank" class="btn btn-outline-light btn-floating m-1 text-black back" role="button"><i class="fa-brands fa-facebook-f"></i></a>
                       <a href="https://www.instagram.com/mevoyde.viaje/" target="_blank" class="btn btn-outline-light btn-floating m-1 text-black" role="button"><i class="fa-brands fa-instagram"></i></a>
                       <a href="https://wa.link/wui22v" target="_blank" class="btn btn-outline-light btn-floating m-1 text-black" role="button"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
                 </div>
             </div>
         </div>
+      </section>
     </footer>
 
     
