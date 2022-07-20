@@ -125,4 +125,76 @@
   font-family: finland;
   font-size: xx-large;
   font-weight: bold;
+}
+
+.background-header {
+  background-image: url(../img/index/San_Rafael.jpg);
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.background {
+  background-color: #e6d3c7;
+}
+
+.margin {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.text_rigth {
+  justify-content: right;
+}
+
+.background_white {
+  background-color: rgba(245, 245, 245, 0.288);
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.margin_contacto {
+  margin: 100px 200px 100px 200px;
+}
+
+.background_form {
+  background-color: rgba(244, 243, 239, 0.6901960784);
+}
+
+.text-black {
+  color: black;
+}
+
+.padding-left {
+  padding-left: 100px;
+}
+
+@media (max-width: 500px) {
+  .padding-left {
+    padding-left: 0px;
+  }
+}
+.text-header {
+  font-size: x-large;
+  color: #9e7d6a;
+}
+
+.margin-top2 {
+  margin-top: 70px;
+}
+
+.text-navbar {
+  color: black;
+}
+
+.text-navbar:hover {
+  background-color: rgba(179, 195, 152, 0.631372549);
 }/*# sourceMappingURL=estilos.css.map */
