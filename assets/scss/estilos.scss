@@ -90,9 +90,9 @@ $color: white;
 
 .border-radius {
 
-    border-radius: 150px;
-    width: 200px;
-    height: 200px;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .border {
@@ -137,9 +137,30 @@ $color: white;
 
 .background-header {
 
-    background-image: url(../img/index/San_Rafael.jpg);
+    background-image: url(../img/background/trekking-hiking-backpacking.png);
 }
 
+.background-destinos {
+
+    background-image: url(../img/background/3660b4b2-93fa-4265-93fa-fe3ed78d6ef2_alta-libre-aspect-ratio_default_0.jpg);
+
+
+}
+
+.background-ref {
+
+    background-image: url(../img/background/visore-trekking.jpg);
+}
+
+.background-cont {
+
+    background-image: url(../img/background/slider\ 2\ \(1\).jpg);
+}
+
+.background-ayuda {
+
+    background-image: url(../img/background/palm-trees-silhouettes-tropical-beach-sunset-modern-vintage-colors-139094492.jpg);
+}
 .float-l {
 
     float: left;
@@ -154,7 +175,7 @@ $color: white;
 
 .background {
 
-    background-color: #e6d3c7;
+    background-color: white;
    
 }
 
@@ -188,8 +209,9 @@ $color: white;
 
 .background_form {
 
-    background-color: #f4f3efb0;
+    background-color: #f4f3ef80;
 }
+
 
 
 .text-black {
@@ -226,6 +248,24 @@ $color: white;
 
 .text-navbar:hover {
 
-    background-color: #b3c398a1;
+    background-color: rgba(194, 190, 190, 0.674);
+    
 }
+
+.text-big {
+    font-size: 80px;
+}
+
+.padding-rigth {
+
+    padding-right: 420px;
+}
+
+.finland {
+
+    font-family: finland;
+    font-size: xx-large;
+}
+
+
 
