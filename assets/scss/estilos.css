@@ -212,7 +212,7 @@
 }
 
 .text-navbar:hover {
-  background-color: rgba(194, 190, 190, 0.674);
+  background-color: white;
 }
 
 .text-big {
@@ -226,4 +226,8 @@
 .finland {
   font-family: finland;
   font-size: xx-large;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
 }/*# sourceMappingURL=estilos.css.map */
